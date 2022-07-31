@@ -8,11 +8,17 @@ From Alphabet Soup’s business team, I received a CSV containing more than 34,0
 ## Results
 Using bulleted lists and images to support your answers, address the following questions.
 
-Data Preprocessing
-What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
-Compiling, Training, and Evaluating the Model
+### Data Preprocessing
+* The IS_SUCCESSFUL variable was the target for the model. It denotes whether an organizaion was trustworthy to fund. 
+
+* The variables below are considered to be the features for the model. 
+<img width="755" alt="Screen Shot 2022-07-31 at 1 16 44 PM" src="https://user-images.githubusercontent.com/95447175/182043642-26f3a97a-607b-40ec-b017-5137bbc24d30.png">
+
+* The variables "EIN" and "NAME" are neither targets nor features, and were removed from the input data
+<img width="577" alt="Screen Shot 2022-07-31 at 1 17 57 PM" src="https://user-images.githubusercontent.com/95447175/182043695-20194e38-bd11-4ad6-9680-734782869073.png">
+
+### Compiling, Training, and Evaluating the Model
+
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
 What steps did you take to try and increase model performance?
