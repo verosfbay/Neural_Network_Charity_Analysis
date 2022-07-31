@@ -23,11 +23,13 @@ The optimized model has three hidden layers; 15 neurons in the first hidden laye
 
 <img width="574" alt="Screen Shot 2022-07-31 at 2 07 53 PM" src="https://user-images.githubusercontent.com/95447175/182045381-6c42a668-33e0-41b0-a502-4647f9bf8cb3.png">
 
-The original model had 80 neurons in the first hidden layer and 30 in the second hidden layer. The activation functions were relu for the hidden layers and sigmoid for the outer layer. The model ran 50 epochs and produced around a 73% accuracy.
+I was able to achive target model performance of above 75% after 3 iterations. 
 
-* Were you able to achieve the target model performance?
-
-* What steps did you take to try and increase model performance?
+To increase model performance, I took the following steps: 
+* adding a third hidden layer
+* decreasing the number of neurons in each layer
+* the original model had 80 neurons in the first hidden layer and 30 neurons in the second hidden layer
+* the final, optimized model had 15 neurons in the first layer, 10 in the second and 5 in the last
 
 ## Summary: 
 The deep learning model yielded 78% accuracy after 3 iterations. The inital accuracy percentage was 72, and the next two attemps yielded 73% accuracy with a slight difference in numbers (.7271137237548828 versus .726064145565033). 
