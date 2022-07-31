@@ -19,7 +19,11 @@ Using bulleted lists and images to support your answers, address the following q
 
 ### Compiling, Training, and Evaluating the Model
 
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
+The optimized model has three hidden layers; 15 neurons in the first hidden layer, 11 neurons in the second hidden layer and 5 neurons in the third hidden layer. All three hidden layers were done with the using the Rectified Linear Unit (ReLU) function, but the outer layer was done with a Sigmoid function. 
+
+<img width="574" alt="Screen Shot 2022-07-31 at 2 07 53 PM" src="https://user-images.githubusercontent.com/95447175/182045381-6c42a668-33e0-41b0-a502-4647f9bf8cb3.png">
+
+The original model had 80 neurons in the first hidden layer and 30 in the second hidden layer. The activation functions were relu for the hidden layers and sigmoid for the outer layer. The model ran 50 epochs and produced around a 73% accuracy.
 
 * Were you able to achieve the target model performance?
 
