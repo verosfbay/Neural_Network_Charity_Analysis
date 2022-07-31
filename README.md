@@ -28,5 +28,4 @@ Using bulleted lists and images to support your answers, address the following q
 ## Summary: 
 The deep learning model yielded 78% accuracy after 3 iterations. The inital accuracy percentage was 72, and the next two attemps yielded 73% accuracy with a slight difference in numbers (.7271137237548828 versus .726064145565033). 
 
-
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+In my opinion, the 78% accuracy is not ideal in this scenario because the Charity is potentially giving large sums of money to organizations, and if they take the money without fulfilling their obligations, the charity has less money to give to legitimate causes. Since this analyis was a clafficication (IS_SUCCESSFUL), I recommend that another analysis be made, this time using a supervised ML model using binary clasifiers. A random forest model would be worth a try. 
