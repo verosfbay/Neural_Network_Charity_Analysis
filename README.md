@@ -26,7 +26,7 @@ Using bulleted lists and images to support your answers, address the following q
 * What steps did you take to try and increase model performance?
 
 ## Summary: 
-The deep learning model yielded 78% accuracy after 3 iterations. The inital accuracy percentage was 72, and the next two attemps yielded 73% accuracy and 
+The deep learning model yielded 78% accuracy after 3 iterations. The inital accuracy percentage was 72, and the next two attemps yielded 73% accuracy with a slight difference in numbers (.7271137237548828 versus .726064145565033). 
 
 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
