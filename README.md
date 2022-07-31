@@ -19,7 +19,7 @@ Using bulleted lists and images to support your answers, address the following q
 
 ### Compiling, Training, and Evaluating the Model
 
-The optimized model has three hidden layers; 15 neurons in the first hidden layer, 11 neurons in the second hidden layer and 5 neurons in the third hidden layer. All three hidden layers were done using the Rectified Linear Unit (ReLU) function, but the outer layer was done with a Sigmoid function. I chose 4 activation functions total. I chose the ReLu function for the three hidden layers because this function is extremely simple to compute (it's also the most popular choice of activation function for hidden layers). I used a sigmoid function because it outputs a value between 0 and 1, making it useful for binary classification problems such as the one in this case study. 
+The optimized model has three hidden layers; 15 neurons in the first hidden layer, 11 neurons in the second hidden layer and 5 neurons in the third hidden layer. I chose 4 activation functions total. All three hidden layers were done using the Rectified Linear Unit (ReLU) function, but the outer layer was done with a Sigmoid function. I chose the ReLu function for the three hidden layers because this function is extremely simple to compute (it's also the most popular choice of activation function for hidden layers). I used a sigmoid function because it outputs a value between 0 and 1, making it useful for binary classification problems such as the one in this case study. 
 
 <img width="574" alt="Screen Shot 2022-07-31 at 2 07 53 PM" src="https://user-images.githubusercontent.com/95447175/182045381-6c42a668-33e0-41b0-a502-4647f9bf8cb3.png">
 
