@@ -19,9 +19,14 @@ Using bulleted lists and images to support your answers, address the following q
 
 ### Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
+* How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+* Were you able to achieve the target model performance?
+
+* What steps did you take to try and increase model performance?
 
 ## Summary: 
+The deep learning model yielded 78% accuracy after 3 iterations. The inital accuracy percentage was 72, and the next two attemps yielded 73% accuracy and 
+
+
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
