@@ -29,7 +29,7 @@ To increase model performance, I took the following steps:
 * adding a third hidden layer
 * decreasing the number of neurons in each layer
 * the original model had 80 neurons in the first hidden layer and 30 neurons in the second hidden layer
-* the final, optimized model had 15 neurons in the first layer, 10 in the second and 5 in the last
+* the final, optimized model had 15 neurons in the first layer, 11 in the second and 5 in the last
 
 ## Summary: 
 The deep learning model yielded 78% accuracy after 3 iterations. The inital accuracy percentage was 72, and the next two attemps yielded 73% accuracy with a slight difference in numbers (.7271137237548828 versus .726064145565033). 
